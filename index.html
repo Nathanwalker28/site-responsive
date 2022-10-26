@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+
+    <div class="hero">
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">ADVENTURE</h1>
+            <ul class="nav-links">
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#tours">Tours</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#" class="btn">Contact</a></li>
+            </ul>
+            <svg xmlns="http://www.w3.org/2000/svg" height="50" width="50" class="menu-btn"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"/></svg>
+        </nav>
+    </header>
+    <div class="banner">
+        <h2>Exprole The Colorful World</h2>
+        <hr>
+        <h1>A WONDERFUL GIFT</h1>
+        <a href="#" class="btn">Learn More</a>
+    </div>
+    </div>
+
+    <main>
+
+        <section class="events">
+            <div class="title">
+                <h1>Upcoming Events</h1>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img src="images/banner.jpg" width="100%" alt="">
+                    <h4>Everest Camp Trek</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        At sint enim dolore. Sed deleniti voluptatibus nihil beatae at, ut voluptatum quaerat dicta illo
+                        nam!
+                        Cumque veritatis architecto sapiente voluptate dolores
+                    </p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="col">
+                    <img src="images/banner.jpg" width="100%" alt="">
+                    <h4>Everest Camp Trek</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        At sint enim dolore. Sed deleniti voluptatibus nihil beatae at, ut voluptatum quaerat dicta illo
+                        nam!
+                        Cumque veritatis architecto sapiente voluptate dolores
+                    </p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="explore">
+            <div class="explore-content">
+                <h1 id="explore">EXPLORE THE WORLD</h1>
+                <hr>
+                <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim sint quam nam voluptate mollitia
+                    voluptas incidunt commodi, libero ipsa natus est amet beatae necessitatibus, eius numquam harum.
+                    Expedita, molestiae blanditiis.
+                </P>
+                <a href="#" class="btn">Explore</a>
+            </div>
+        </section>
+
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col">
+                    <h1 id="tours">UPCOMING TOURS DESTINATION</h1>
+                    <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Fugiat explicabo delectus i
+                        ure molestiae eius alias qui repudiandae?
+                        Voluptates aliquid porro officia sunt non cum
+                        aliquam recusandae ullam vitae assumenda. Quos.
+                    </p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        <img src="images/banner.jpg" alt="">
+                        <img src="images/banner.jpg" alt="">
+                        <img src="images/banner.jpg" alt="">
+                        <img src="images/banner.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>copyright @nantenaina aout 2022</p>
+    </footer>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click', function() {
+            navlinks.classList.toggle('mobile-menu')
+        });
+
+    </script>
+</body>
+
+</html>
